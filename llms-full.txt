@@ -1,0 +1,55 @@
+# code-mentor (AI 编程导师) — 完整文本
+
+本文件为 llms.txt 标准的「完整版」，供长上下文模型一次性读取本仓库的完整说明。
+
+## 这是什么
+
+`code-mentor` 是一个 Agent Skill 发布包，分类 编程教学 / Education，版本 1.0.0。
+
+一句话：全能 AI 编程导师——通过苏格拉底式教学法提供交互式编程学习、代码审查、调试指导、算法练习、项目指导与设计模式讲解，支持 Python / JavaScript；结论挂到语言规范、官方文档或可运行验证。
+
+## 解决什么问题
+
+用苏格拉底式引导学编程、过代码、练算法，不直接给答案。对应典型提问：
+
+```text
+「这段代码为什么错」
+「怎么从零学 Python」
+「面试算法怎么练 / 给我一道题」
+```
+
+## 特性
+
+- 苏格拉底式教学：渐进提示（Hint 1→3）引导思考，不直接给答案
+- 覆盖广：交互式学习、代码审查、调试指导、算法练习、项目指导、设计模式
+- 语言：Python / JavaScript 为主
+- 真实参照法：审查与讲解挂到语言规范、官方文档或可运行验证，不凭感觉断言
+- 学员进度：内置 references/user-progress/learning_log.md 记录学习路线与掌握情况
+- 多语种：中 / 英 / 日 / 韩 / 西 / 法 / 德 / 阿（核心 8 种）
+
+## 快速开始
+
+```bash
+# 1. 克隆本仓库
+git clone https://github.com/zhaoxinghua09-cell/code-mentor.git
+cd code-mentor
+
+# 2. 查看技能主文件（教学法、提示阶梯、代码审查口径）
+cat SKILL.md
+
+# 3. 查看 / 续接学员学习日志（画像、路线、已掌握主题）
+cat references/user-progress/learning_log.md
+```
+
+## 触发词
+
+编程教学 · code review · 调试指导 · 算法练习 · 设计模式 · 面试准备 · 苏格拉底教学 · teach me · python · javascript。
+
+## 许可与权利
+
+MIT 许可。权利人「赵兴华 / Steven Zhao·China」。MedXpert、SynomosAI、LGD 等为项目标识，均未申请实体注册、未申请商标注册。完整条款见 LICENSE。联系：zhaoxinghua06@126.com ｜ ORCID 0009-0001-0512-1237。
+
+## 链接
+
+- 仓库: https://github.com/zhaoxinghua09-cell/code-mentor
+- 技能主文件: https://github.com/zhaoxinghua09-cell/code-mentor/blob/main/SKILL.md

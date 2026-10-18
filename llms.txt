@@ -1,0 +1,21 @@
+# code-mentor (AI 编程导师)
+
+> 全能 AI 编程导师——通过苏格拉底式教学法提供交互式编程学习、代码审查、调试指导、算法练习、项目指导与设计模式讲解，支持 Python / JavaScript；结论挂到语言规范、官方文档或可运行验证。
+
+`code-mentor` 是一个遵循 Agent Skills 规范的技能发布包，分类：编程教学 / Education，版本 1.0.0。可放入主流 AI Agent 的技能目录直接加载。
+
+## 核心
+
+- [SKILL.md](https://github.com/zhaoxinghua09-cell/code-mentor/blob/main/SKILL.md): 技能主文件（YAML frontmatter + 全量方法与触发词）
+- [manifest.json](https://github.com/zhaoxinghua09-cell/code-mentor/blob/main/manifest.json): 技能元数据（名称 / 版本 / 许可 / 描述）
+- [README.md](https://github.com/zhaoxinghua09-cell/code-mentor/blob/main/README.md): 项目说明与快速开始
+- [references/user-progress/learning_log.md](https://github.com/zhaoxinghua09-cell/code-mentor/blob/main/references/user-progress/learning_log.md): 学员学习日志与进度
+
+## 可选
+
+- [README.en.md](https://github.com/zhaoxinghua09-cell/code-mentor/blob/main/README.en.md): 英文版说明
+- [AGENTS.md](https://github.com/zhaoxinghua09-cell/code-mentor/blob/main/AGENTS.md): 给 AI Agent 的工作指引
+- [llms-full.txt](https://github.com/zhaoxinghua09-cell/code-mentor/blob/main/llms-full.txt): 完整文本（供长上下文模型）
+- [SECURITY.md](https://github.com/zhaoxinghua09-cell/code-mentor/blob/main/SECURITY.md): 安全策略
+- [CONTRIBUTING.md](https://github.com/zhaoxinghua09-cell/code-mentor/blob/main/CONTRIBUTING.md): 贡献指南
+- [LICENSE](https://github.com/zhaoxinghua09-cell/code-mentor/blob/main/LICENSE): MIT 许可
